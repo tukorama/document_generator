@@ -9,7 +9,11 @@ Nyissunk meg egy parancssort és navigáljunk el az előbb kiválasztott mappáh
 Írjuk be az alábbiakat a parancssorba:
 
 ```bash
-python -m venv .venv & pip install -r requirements.txt
+git clone https://github.com/tukorama/document_generator.git &
+cd document_generator &
+python -m venv .venv &
+.venv\Scripts\activate.bat &
+pip install -r requirements.txt
 ```
 
 Ha az előbbi lépéssel megvagyunk, már használhatjuk is a kedvenc dokumentum generátorunkat.
