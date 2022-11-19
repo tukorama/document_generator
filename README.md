@@ -11,6 +11,7 @@ Nyissunk meg egy parancssort és navigáljunk el az előbb kiválasztott mappáh
 ```bash
 git clone https://github.com/tukorama/document_generator.git &
 cd document_generator &
+pip install venv &
 python -m venv .venv &
 .venv\Scripts\activate.bat &
 pip install -r requirements.txt
