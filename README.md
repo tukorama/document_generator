@@ -9,22 +9,21 @@ Nyissunk meg egy parancssort és navigáljunk el az előbb kiválasztott mappáh
 Írjuk be az alábbiakat a parancssorba:
 
 ```bash
-    python -m venv .venv &
-    pip install -r requirements.txt
+python -m venv .venv & pip install -r requirements.txt
 ```
 
 Ha az előbbi lépéssel megvagyunk, már használhatjuk is a kedvenc dokumentum generátorunkat.
 
 Használat:
 
-``` 
-    python main.py <sablon_fájl> <adat_csv>
+```bash
+python main.py <sablon_fájl> <adat_csv>
 ```
 
 Példaként próbáljuk ki:
 
-```
-    python main.py example.xml test.csv
+```bash
+python main.py example.xml test.csv
 ```
 
 ## Javaslom, hogy a két felhasznált fájlt tegyük be a main.py mellé
