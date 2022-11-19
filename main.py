@@ -18,10 +18,15 @@ if __name__ == "__main__":
     if not os.path.exists("./output"):
         os.makedirs("output")
 
+    counter : int = 0
     for d in data:
         output = template.render(d)
         with open(f"./output/{list(d.values())[0]}.xml", 'wb') as file:
             file.write(output.encode("utf-8"))
+            counter += 1
+
+    print(f"{counter} fájl generása sikeres volt 😊")
+
 
 
 
