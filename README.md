@@ -1,4 +1,4 @@
-# GEM PDF GENERÁTOR
+# GEM Dokumentum Generátor
 
 ## Telepítés
 
