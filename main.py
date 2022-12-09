@@ -25,7 +25,7 @@ if __name__ == "__main__":
             file.write(output.encode("utf-8"))
             counter += 1
 
-    print(f"{counter} fájl generása sikeres volt 😊")
+    print(f"{counter} fájl generálása sikeres volt 😊")
 
 
 
